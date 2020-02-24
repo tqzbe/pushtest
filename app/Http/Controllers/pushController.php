@@ -22,6 +22,7 @@ class pushController extends Controller
             'ios_attachments' => [
                 "id" => "https://push.tqz.be/img/logo_small.png"
             ],
+            'chrome_web_badge' => 'https://push.tqz.be/img/badge.png',
             'ios_badgeType'  => 'Increase',
             'ios_badgeCount' => 1,
             'included_segments' => array('All')
