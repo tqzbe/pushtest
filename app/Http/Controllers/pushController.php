@@ -11,16 +11,16 @@ class pushController extends Controller
     {
         $parameters = [
             'headings'       => [
-                'en' => 'Message Heading',
+                'en' => 'Magic DSP',
                 'pt' => 'Titulo da msg'
             ],
             'contents'       => [
-                'en' => 'Message Content '.Carbon::now()->toString(),
-                'pt' => 'Conteudo da msg '.Carbon::now()->toString()
+                'en' => 'Le prix de votre réparation est disponible!',
+                'pt' => 'Conteudo da msg '
             ],
-            'big_picture' => 'http://magic-dsp.com/wp-content/uploads/2018/06/logo_small.png',
+            'big_picture' => 'https://push.tqz.be/img/logo_small.png',
             'ios_attachments' => [
-                "id" => "http://magic-dsp.com/wp-content/uploads/2018/06/logo_small.png"
+                "id" => "https://push.tqz.be/img/logo_small.png"
             ],
             'ios_badgeType'  => 'Increase',
             'ios_badgeCount' => 1,
