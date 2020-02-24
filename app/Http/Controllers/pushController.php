@@ -27,6 +27,6 @@ class pushController extends Controller
             'included_segments' => array('All')
         ];
         //dd(OneSignal::sendNotificationToAll("Le prix de votre réparation est disponible !", $url = 'http://tqz.be', $data =["template_id" => "b421cbe6-e8bd-4934-904e-e3c52919ec5c"]));
-        dd(OneSignal::sendNotificationCustom($parameters);
+        dd(OneSignal::sendNotificationCustom($parameters));
     }
 }
